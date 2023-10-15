@@ -22,7 +22,7 @@ import torchvision.datasets as datasets
 import torchvision.models as models
 import moco.loader
 import moco.builder
-from model import Densenet, Inceptionv3, ResNet, VGG, SimpleCNN, Efficientnet
+from train import Densenet, Inceptionv3, ResNet, VGG, SimpleCNN, Efficientnet
 
 model_names = {
         'densenet121':  Densenet.densenet121,
